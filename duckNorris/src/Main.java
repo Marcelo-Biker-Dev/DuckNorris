@@ -9,8 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Game duckNorris = new Game();
-        duckNorris.init();
+        Game duckNorrisGame = new Game();
+        duckNorrisGame.init();
+        duckNorrisGame.start();
 
    }
 }
